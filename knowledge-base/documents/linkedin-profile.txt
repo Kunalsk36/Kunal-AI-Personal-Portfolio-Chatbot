@@ -1,0 +1,329 @@
+LINKEDIN PROFILE
+
+Kunal Kavathekar
+
+Headline:
+Software Developer | Full Stack Developer | Java | JavaScript | Next.js | Node.js | Open to Work
+
+Location:
+Ratnagiri, Maharashtra, India
+
+--------------------------------------------------
+
+CONTACT INFORMATION
+
+Email:
+kunalkavathekar@gmail.com
+
+LinkedIn:
+https://www.linkedin.com/in/kunal-kavathekar
+
+Portfolio:
+https://kunalkavathekar.vercel.app
+
+GitHub:
+https://github.com/KunalSK36
+
+--------------------------------------------------
+
+ABOUT
+
+Software Developer | MCA Student | Full Stack & Java Enthusiast
+
+I am a passionate software developer with hands-on experience in developing web applications and working on real-world projects.
+
+During my Software Development internship, I gained practical exposure to:
+
+- Full Stack Development
+- Backend Integration
+- Database Management
+- Cloud Deployment
+- Debugging and Testing
+- Collaborative Development
+
+My technical expertise includes:
+
+- Java
+- JavaScript
+- Next.js
+- Node.js
+- MySQL
+- HTML
+- CSS
+- AWS EC2
+- Amazon S3
+
+I have also contributed to AI-focused research that resulted in:
+
+- International Research Paper Publication
+- Patent Publication
+- Copyright Registration
+
+My research focuses on AI-powered course recommendation systems using Sentence-BERT and Knowledge Graphs.
+
+Career Interests:
+
+- Software Development
+- Full Stack Development
+- Java Development
+- AI Applications
+
+Open To Roles:
+
+- Software Developer
+- Full Stack Developer
+- Java Developer
+- Associate Software Engineer
+
+Professional Goal:
+
+Build impactful software solutions while continuously improving technical and leadership skills.
+
+--------------------------------------------------
+
+EXPERIENCE
+
+Momento (Humora Technologies Pvt. Ltd.)
+
+Role:
+Software Development Intern
+
+Duration:
+January 2026 - May 2026
+
+Responsibilities:
+
+- Developed and maintained web applications using Next.js, JavaScript, Tailwind CSS, Node.js, and MySQL.
+- Built responsive user interfaces for Tech4Bharat.
+- Contributed to Sahyadri Rural Connect.
+- Supported deployment activities through Vercel.
+- Developed full-stack features for LearnBetter.
+- Worked with AWS EC2 and Amazon S3.
+- Contributed to ArthShastra platform development.
+- Performed testing, debugging, deployment, authentication validation, and issue resolution.
+
+Technologies Used:
+
+- Next.js
+- JavaScript
+- Tailwind CSS
+- Node.js
+- MySQL
+- AWS EC2
+- Amazon S3
+- Vercel
+
+--------------------------------------------------
+
+Satchitanand Stencils Private Limited
+
+Role:
+RPA Intern
+
+Duration:
+16 April 2024 - 16 June 2024
+
+Location:
+Maharashtra, India
+
+Responsibilities:
+
+- Developed automation bots using UiPath.
+- Assisted in deployment of RPA solutions.
+- Debugged automation workflows.
+- Optimized automated business processes.
+- Gained experience in real-world software project lifecycle and teamwork.
+
+Technologies Used:
+
+- UiPath
+
+--------------------------------------------------
+
+Quick Heal Foundation
+
+Role:
+Cyber Warrior
+
+Duration:
+October 2022 - January 2023
+
+Location:
+Maharashtra, India
+
+Responsibilities:
+
+- Conducted cyber awareness sessions.
+- Delivered presentations in schools and colleges.
+- Educated students about cyber safety.
+- Promoted awareness regarding digital threats and online security.
+
+Recognition:
+
+- Received appreciation letter for outstanding contribution.
+
+--------------------------------------------------
+
+EDUCATION
+
+Master of Computer Applications (MCA)
+
+Institution:
+Finolex Academy of Management and Technology
+
+Duration:
+2024 - 2026
+
+Status:
+Pursuing
+
+--------------------------------------------------
+
+Bachelor of Science in Computer Science (BSc CS)
+
+Institution:
+University of Mumbai
+Gogate Jogalekar College (Autonomous), Ratnagiri
+
+Duration:
+2021 - 2024
+
+Achievement:
+
+- First Rank Holder
+- Gold Medalist
+
+--------------------------------------------------
+
+TOP SKILLS
+
+- Full Stack Development
+- Java
+- JavaScript
+
+Additional Skills:
+
+- Next.js
+- Node.js
+- React.js
+- Tailwind CSS
+- MySQL
+- MongoDB
+- AWS EC2
+- Amazon S3
+- Git
+- GitHub
+
+--------------------------------------------------
+
+CERTIFICATIONS
+
+- Cyber Security and Privacy
+- Web Development Fundamentals
+- ChatGPT Prompt Engineering for Developers
+- UI/UX Design
+- Cloud Computing
+
+--------------------------------------------------
+
+HONORS AND AWARDS
+
+Gold Medalist
+
+Description:
+Awarded Gold Medal for securing top academic performance in BSc Computer Science.
+
+--------------------------------------------------
+
+Merit Certificate
+
+Description:
+Awarded for securing First Rank in BSc Computer Science.
+
+--------------------------------------------------
+
+Web Phoenix
+
+Achievement:
+First Rank
+
+Competition:
+In-House Software Competition
+
+Project:
+Spotify Clone
+
+--------------------------------------------------
+
+App Phoenix
+
+Achievement:
+Second Rank
+
+Competition:
+In-House Software Competition
+
+Project:
+KKNotes BSc CS
+
+--------------------------------------------------
+
+Copyright Registration
+
+Title:
+Path Reco: AI Powered Domain Specific Course Recommendation for Online Learning Platforms
+
+--------------------------------------------------
+
+General Secretary
+
+Organization:
+Student Council
+
+Duration:
+2023-2024
+
+--------------------------------------------------
+
+PUBLICATIONS
+
+PathReco:
+AI-Powered Domain-Specific Course Recommendation System Using Sentence-BERT and Knowledge Graphs
+
+Type:
+Research Paper
+
+--------------------------------------------------
+
+PATENTS
+
+INDIPATHRECO
+
+Title:
+AI-Powered Domain-Specific Course Recommendation System Using Knowledge Graphs and BERT-Based Semantic Analysis
+
+Type:
+Patent Publication
+
+--------------------------------------------------
+
+KEYWORDS
+
+Kunal Kavathekar
+Software Developer
+Full Stack Developer
+Java Developer
+Next.js Developer
+Node.js Developer
+MCA Student
+Gold Medalist
+Researcher
+Patent Holder
+AI Research
+PathReco
+LearnBetter
+ArthShastra
+Tech4Bharat
+Sahyadri Rural Connect
+KKNotes
+Cyber Warrior

@@ -1,0 +1,59 @@
+{
+  "achievements": [
+    {
+      "id": "gold-medal-bsc-cs",
+      "category": "Academic",
+      "title": "Gold Medalist",
+      "description": "Awarded Gold Medal for securing First Rank in Bachelor of Science (Computer Science) with a CGPI of 9.85.",
+      "organization": "R.P. Gogate College of Arts & Science and R.V. Jogalekar College of Commerce (Autonomous), Ratnagiri",
+      "year": 2025,
+      "position": "1st Rank"
+    },
+    {
+      "id": "first-rank-bsc-cs",
+      "category": "Academic",
+      "title": "First Rank Holder - BSc Computer Science",
+      "description": "Secured First Rank in BSc Computer Science under the University of Mumbai.",
+      "year": 2024,
+      "cgpi": 9.85,
+      "position": "1st Rank"
+    },
+    {
+      "id": "web-phoenix-2022",
+      "category": "Competition",
+      "title": "Web Phoenix 2022",
+      "description": "Won First Rank in the Phoenix In-House Software Competition in the Web Category for developing a Spotify Clone project.",
+      "organization": "Department of Computer Science, R.P. Gogate College",
+      "year": 2022,
+      "position": "1st Rank",
+      "project": "Spotify Clone"
+    },
+    {
+      "id": "app-phoenix-2023",
+      "category": "Competition",
+      "title": "App Phoenix 2023-24",
+      "description": "Secured Second Rank in the Phoenix In-House Software Competition in the App Category for developing the KKNotes BSc CS application.",
+      "organization": "Department of Computer Science, R.P. Gogate College",
+      "year": 2023,
+      "position": "2nd Rank",
+      "project": "KKNotes BSc CS"
+    },
+    {
+      "id": "general-secretary",
+      "category": "Leadership",
+      "title": "General Secretary",
+      "description": "Served as General Secretary of the Student Council and led student activities with responsibility, humility, and sincerity.",
+      "organization": "R.P. Gogate College of Arts & Science and R.V. Jogalekar College of Commerce",
+      "duration": "2023-2024"
+    },
+    {
+      "id": "cyber-warrior",
+      "category": "Leadership",
+      "title": "Cyber Warrior",
+      "description": "Recognized by Quick Heal Foundation for outstanding contribution to the Cyber Shiksha for Cyber Suraksha initiative and promoting cyber security awareness among students and communities.",
+      "organization": "Quick Heal Foundation",
+      "duration": "2022-2023",
+      "performance": "Excellent"
+    }
+  ]
+}

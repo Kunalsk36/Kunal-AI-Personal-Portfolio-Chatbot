@@ -1,0 +1,309 @@
+KUNAL SHRIKANT KAVATHEKAR
+
+CONTACT INFORMATION
+
+Email: kunalkavathekar@gmail.com
+Phone: +91 9067889136
+GitHub: https://github.com/KunalSK36
+LinkedIn: https://www.linkedin.com/in/kunal-kavathekar
+Portfolio: https://kunalkavathekar.vercel.app
+
+--------------------------------------------------
+
+PROFESSIONAL SUMMARY
+
+Software Developer with 7 months of industry experience in full-stack web development, modern web technologies, and AI-driven solutions. Experienced in building scalable web applications using Next.js, Node.js, MySQL, AWS EC2, and Amazon S3. Strong foundation in software development, AI-powered applications, research, and problem solving.
+
+--------------------------------------------------
+
+EDUCATION
+
+Master of Computer Applications (MCA)
+Finolex Academy of Management and Technology
+Ratnagiri, Maharashtra, India
+Duration: 2024 - 2026
+Status: Pursuing
+
+Bachelor of Science in Computer Science (BSc CS)
+Gogate Jogalekar College (Autonomous), University of Mumbai
+Ratnagiri, Maharashtra, India
+Duration: 2021 - 2024
+CGPA: 9.5
+Final Semester CGPI: 9.85
+Achievement: Gold Medalist and First Rank Holder
+
+Higher Secondary Certificate (HSC - Science)
+Maharashtra State Board
+Year: 2021
+Percentage: 86.33%
+Marks: 518/600
+
+Secondary School Certificate (SSC)
+Maharashtra State Board
+Year: 2019
+Percentage: 83.00%
+Marks: 415/500
+
+--------------------------------------------------
+
+TECHNICAL SKILLS
+
+Programming Languages:
+- Java
+- JavaScript
+- Python
+- Kotlin
+
+Frontend Technologies:
+- HTML5
+- CSS3
+- Tailwind CSS
+- React.js
+- Next.js
+
+Backend Technologies:
+- Node.js
+- Express.js
+
+Databases:
+- MySQL
+- MongoDB
+- Firebase
+
+Cloud and Deployment:
+- AWS EC2
+- Amazon S3
+- Vercel
+
+AI and Research:
+- Sentence-BERT
+- Hugging Face
+- Knowledge Graphs
+- NetworkX
+
+Automation:
+- UiPath
+
+Tools:
+- Git
+- GitHub
+- VS Code
+- Figma
+- Antigravity
+
+Soft Skills:
+- Team Leadership
+- Communication
+- Problem Solving
+- Presentation Skills
+
+--------------------------------------------------
+
+PROFESSIONAL EXPERIENCE
+
+Software Development Intern
+Momento (Humora Technologies Pvt. Ltd.)
+Duration: January 2026 - May 2026
+
+Responsibilities:
+- Developed and maintained web applications using Next.js, JavaScript, Tailwind CSS, Node.js, and MySQL.
+- Built full-stack features for LearnBetter using Next.js, Node.js, MySQL, AWS EC2, and Amazon S3.
+- Performed testing, debugging, authentication validation, and issue resolution.
+- Contributed to the Arthshastra platform by developing frontend modules and Gemini API-powered JSON generation tools.
+- Developed responsive interfaces for Tech4Bharat and Sahyadri Rural Connect.
+- Developed more than 70 responsive pages for an enterprise-level corporate website.
+- Created multiple photography website templates with modern UI/UX design.
+
+Robotic Process Automation (RPA) Intern
+Satchitanand Stencils Private Limited
+Duration: 16 April 2024 - 16 June 2024
+
+Responsibilities:
+- Developed and tested UiPath automation bots.
+- Worked on workflow automation and data extraction.
+- Contributed to a live Quotation Creation Bot.
+- Automated ERP quotation generation and email delivery workflows.
+
+Total Industry Experience: 7 Months
+
+--------------------------------------------------
+
+PROJECTS
+
+PathReco
+
+Type: Research Project
+
+Description:
+AI-powered domain-specific course recommendation system using Sentence-BERT and Knowledge Graphs.
+
+Technologies:
+- Python
+- Flask
+- Sentence-BERT
+- PyTorch
+- Hugging Face
+- NetworkX
+
+Key Features:
+- Domain-specific course recommendation
+- Semantic similarity using Sentence-BERT
+- Knowledge Graph-based learning path generation
+
+--------------------------------------------------
+
+LearnBetter
+
+Type: Learning Platform
+
+Technologies:
+- Next.js
+- JavaScript
+- CSS
+- Node.js
+- MySQL
+- AWS EC2
+- Amazon S3
+
+Responsibilities:
+- Developed full-stack learning platform features.
+- Managed cloud deployment and storage integration.
+- Performed testing and debugging.
+
+--------------------------------------------------
+
+Arthshastra
+
+Type: Digital Knowledge Platform
+
+Technologies:
+- Next.js
+- JavaScript
+- Tailwind CSS
+- Node.js
+- Gemini API
+- JSON
+
+Responsibilities:
+- Developed frontend modules.
+- Created Gemini API-powered JSON dataset generation tools.
+- Designed structured content architecture.
+
+--------------------------------------------------
+
+Blog Aura
+
+Type: Blogging Platform
+
+Technologies:
+- HTML
+- CSS
+- Tailwind CSS
+- JavaScript
+- Node.js
+- Express.js
+- MongoDB
+
+Responsibilities:
+- Developed multilingual blogging platform.
+- Built REST APIs.
+- Implemented user engagement and administration features.
+
+--------------------------------------------------
+
+KKNotes BSCCS
+
+Type: Educational Resource Platform
+
+Description:
+Platform providing semester-wise study materials, notes, reference books, and question papers for BSc Computer Science students.
+
+--------------------------------------------------
+
+Portfolio Website
+
+Type: Personal Portfolio
+
+Description:
+Professional portfolio showcasing projects, skills, experience, research, achievements, and certifications.
+
+--------------------------------------------------
+
+RESEARCH AND INTELLECTUAL PROPERTY
+
+Research Paper
+
+Title:
+PathReco: AI-Powered Domain-Specific Course Recommendation System Using Sentence-BERT and Knowledge Graphs
+
+Publication:
+International Journal of Scientific Research in Science and Technology (IJSRST)
+
+Year:
+2026
+
+--------------------------------------------------
+
+Patent Publication
+
+Title:
+INDIPATHRECO: AI-Powered Domain-Specific Course Recommendation System Using Knowledge Graphs and BERT-Based Semantic Analysis
+
+Publication:
+Indian Patent Office Journal
+
+Year:
+2026
+
+--------------------------------------------------
+
+Copyright Registration
+
+Title:
+Path Reco: AI Powered Domain Specific Course Recommendation for Online Learning Platforms
+
+Registration Number:
+LD-20260182714
+
+--------------------------------------------------
+
+ACHIEVEMENTS
+
+- Gold Medalist in BSc Computer Science.
+- First Rank Holder in BSc Computer Science with Final Semester CGPI 9.85.
+- First Rank in Web Phoenix In-House Software Competition 2022 for Spotify Clone project.
+- Second Rank in App Phoenix In-House Software Competition 2023-24 for KKNotes BSc CS project.
+- General Secretary, Student Council (2023-2024).
+- Cyber Warrior recognized by Quick Heal Foundation.
+
+--------------------------------------------------
+
+CERTIFICATIONS
+
+- ChatGPT Prompt Engineering for Developers
+- Cloud Computing
+- UI/UX Design
+- Cyber Security and Privacy
+- Web Development Fundamentals
+- UG Diploma in Robotic Process Automation
+
+--------------------------------------------------
+
+LANGUAGES
+
+- English
+- Hindi
+- Marathi
+
+--------------------------------------------------
+
+PERSONAL INFORMATION
+
+Date of Birth: 09 April 2003
+Nationality: Indian
+
+Interests:
+- Gaming
+- Music
+- Reading
+- Photography

@@ -1,0 +1,237 @@
+{
+  "projects": [
+    {
+      "name": "LearnBetter",
+      "type": "Company Project",
+      "category": "Full-Stack Development",
+      "duration": "Internship Project",
+      "description": "A full-stack learning platform designed to enhance the digital learning experience through scalable architecture, cloud infrastructure, and responsive user interfaces.",
+      "responsibilities": [
+        "Developed frontend and backend modules using Next.js and Node.js.",
+        "Implemented MySQL database operations and API integrations.",
+        "Worked with AWS EC2 for deployment and hosting.",
+        "Integrated Amazon S3 for file storage and management.",
+        "Performed testing, debugging, and deployment activities."
+      ],
+      "technologies": [
+        "Next.js",
+        "Node.js",
+        "JavaScript",
+        "MySQL",
+        "Tailwind CSS",
+        "AWS EC2",
+        "Amazon S3"
+      ]
+    },
+    {
+      "name": "Arthshastra",
+      "type": "Company Project",
+      "category": "AI & Research",
+      "description": "An AI-powered digital knowledge platform utilizing Gemini API and structured JSON workflows to generate and manage educational content based on ancient Indian knowledge systems.",
+      "responsibilities": [
+        "Developed frontend modules for books, chapters, and shloka navigation.",
+        "Built content rendering interfaces using Next.js.",
+        "Created Gemini API-powered tools for automated JSON dataset generation.",
+        "Structured educational content into standardized datasets.",
+        "Contributed to testing and platform enhancements."
+      ],
+      "technologies": [
+        "Next.js",
+        "JavaScript",
+        "Node.js",
+        "Tailwind CSS",
+        "Gemini API",
+        "JSON"
+      ]
+    },
+    {
+      "name": "Sahyadri Rural Connect",
+      "type": "Company Project",
+      "category": "Social Impact & Rural Education Platform",
+      "description": "A social leadership platform connecting students with experiential learning opportunities through winter camps, rural immersion programs, and grassroots initiatives.",
+      "responsibilities": [
+        "Developed responsive frontend interfaces.",
+        "Implemented content restructuring and UI improvements.",
+        "Optimized mobile responsiveness.",
+        "Collaborated on feature development and deployment."
+      ],
+      "technologies": [
+        "Next.js",
+        "JavaScript",
+        "CSS",
+        "Tailwind CSS",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Tech4Bharat",
+      "type": "Company Project",
+      "category": "Educational Initiative Platform",
+      "description": "A skill-development and educational initiative website focused on empowering students through workshops in technology, public policy, and national security.",
+      "responsibilities": [
+        "Contributed to website redesign and modernization.",
+        "Developed responsive UI components.",
+        "Updated workshop and event pages.",
+        "Improved accessibility and user experience."
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "CSS",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "Humora Technology",
+      "type": "Enterprise Website",
+      "category": "Corporate Platform",
+      "description": "An enterprise-scale corporate website consisting of over 70 responsive pages showcasing services, products, research initiatives, and technology solutions.",
+      "responsibilities": [
+        "Developed and maintained multiple website pages.",
+        "Implemented reusable UI components.",
+        "Enhanced responsiveness across devices.",
+        "Optimized layouts and user experience."
+      ],
+      "technologies": [
+        "Next.js",
+        "JavaScript",
+        "CSS",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "PathReco AI",
+      "type": "Research Project",
+      "category": "AI & Education",
+      "description": "An AI-powered domain-specific course recommendation system that provides personalized learning pathways using Sentence-BERT embeddings and knowledge graphs.",
+      "responsibilities": [
+        "Designed the recommendation engine architecture.",
+        "Implemented semantic similarity matching using Sentence-BERT.",
+        "Built knowledge graph relationships between domains, skills, and courses.",
+        "Developed the Flask web application.",
+        "Performed dataset preparation and evaluation."
+      ],
+      "technologies": [
+        "Python",
+        "Flask",
+        "Sentence-BERT",
+        "PyTorch",
+        "Hugging Face",
+        "Knowledge Graph",
+        "NetworkX",
+        "Pandas"
+      ],
+      "achievements": [
+        "Published Research Paper",
+        "Published Indian Patent",
+        "Registered Copyright"
+      ]
+    },
+    {
+      "name": "Blog Aura",
+      "type": "Personal Project",
+      "category": "Web Application",
+      "description": "A multilingual blogging platform focused on providing users with a clean and engaging content-sharing experience.",
+      "responsibilities": [
+        "Developed frontend and backend modules.",
+        "Implemented content management features.",
+        "Integrated MongoDB Atlas database.",
+        "Created responsive user interfaces."
+      ],
+      "technologies": [
+        "HTML",
+        "Tailwind CSS",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "MongoDB Atlas"
+      ]
+    },
+    {
+      "name": "KKNOTES BSCCS",
+      "type": "Android Application",
+      "category": "Educational Mobile App",
+      "description": "An educational mobile application providing B.Sc. Computer Science students with semester-wise notes, academic resources, and study materials.",
+      "responsibilities": [
+        "Designed and developed the Android application.",
+        "Implemented semester-wise content organization.",
+        "Built user-friendly navigation and resource management features."
+      ],
+      "technologies": [
+        "Kotlin",
+        "XML",
+        "Android Studio"
+      ]
+    },
+    {
+      "name": "Block Banger",
+      "type": "Game Development",
+      "category": "Unity 3D Game",
+      "description": "A 3D adventure platformer game featuring multiple levels, enemies, collectibles, scoring systems, and immersive gameplay mechanics.",
+      "responsibilities": [
+        "Designed gameplay mechanics and levels.",
+        "Implemented player controls and enemy systems.",
+        "Developed scoring and progression features.",
+        "Integrated audio and visual effects."
+      ],
+      "technologies": [
+        "Unity",
+        "C#",
+        "Visual Studio"
+      ]
+    },
+    {
+      "name": "Tic-Tac-Toe Game",
+      "type": "Personal Project",
+      "category": "Web Application",
+      "description": "A classic Tic-Tac-Toe game built using vanilla JavaScript featuring responsive design and game state management.",
+      "responsibilities": [
+        "Developed game logic and win detection algorithms.",
+        "Implemented responsive UI.",
+        "Created interactive gameplay experience."
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "KKMusic",
+      "type": "Personal Project",
+      "category": "Web Application",
+      "description": "A browser-based music player featuring interactive controls, playlists, and a responsive listening experience.",
+      "responsibilities": [
+        "Designed music player interface.",
+        "Implemented playback controls.",
+        "Built responsive layouts and user interactions."
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Portfolio Website",
+      "type": "Personal Project",
+      "category": "Professional Portfolio",
+      "description": "A modern developer portfolio showcasing projects, experience, research publications, certifications, achievements, and technical skills with premium responsive design.",
+      "responsibilities": [
+        "Designed and developed the complete website.",
+        "Implemented dark and light theme support.",
+        "Built responsive layouts for mobile, tablet, and desktop.",
+        "Created reusable components and animations.",
+        "Deployed and maintained production environment."
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Vercel"
+      ]
+    }
+  ]
+}

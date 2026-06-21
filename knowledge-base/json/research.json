@@ -1,0 +1,106 @@
+{
+  "research": {
+    "projectName": "PathReco AI",
+    "domain": "Artificial Intelligence, Education Technology, Recommendation Systems",
+    "description": "PathReco AI is an AI-powered domain-specific course recommendation system designed to provide personalized learning pathways based on user interests, existing skills, and career goals. The system combines Sentence-BERT semantic embeddings with Knowledge Graphs to recommend relevant learning resources and courses from curated educational datasets.",
+
+    "technologies": [
+      "Python",
+      "Flask",
+      "Sentence-BERT",
+      "PyTorch",
+      "Hugging Face",
+      "NetworkX",
+      "Knowledge Graph",
+      "Pandas"
+    ],
+
+    "keywords": [
+      "Artificial Intelligence",
+      "Course Recommendation",
+      "Personalized Learning",
+      "Sentence-BERT",
+      "Knowledge Graph",
+      "Educational Technology",
+      "Semantic Search",
+      "Machine Learning"
+    ],
+
+    "researchPaper": {
+      "title": "PathReco: AI-Powered Domain-Specific Course Recommendation System Using Sentence-BERT and Knowledge Graphs",
+      "journal": "International Journal of Scientific Research in Science and Technology (IJSRST)",
+      "publisher": "IJSRST",
+      "publicationDate": "20 April 2026",
+      "volume": "13",
+      "issue": "2",
+      "year": "2026",
+      "paperType": "International Journal Publication",
+
+      "authors": [
+        {
+          "name": "Kunal S. Kavathekar",
+          "role": "Primary Author"
+        },
+        {
+          "name": "Tanvi R. Mane",
+          "role": "Co-Author"
+        },
+        {
+          "name": "Prof. Waman R. Parulekar",
+          "role": "Research Guide"
+        }
+      ],
+
+      "abstract": "The research proposes an intelligent recommendation system that combines Sentence-BERT semantic similarity with Knowledge Graph relationships to generate personalized learning pathways. The system analyzes user interests, skills, and career objectives to recommend relevant courses, helping learners navigate educational resources more effectively.",
+
+      "contributions": [
+        "Designed the overall recommendation system architecture.",
+        "Implemented semantic similarity matching using Sentence-BERT.",
+        "Developed Knowledge Graph-based skill-domain-course relationships.",
+        "Built the complete Flask-based web application.",
+        "Conducted experimentation, testing, and evaluation of recommendation accuracy."
+      ],
+
+      "status": "Published"
+    },
+
+    "patent": {
+      "title": "INDIPATHRECO: AI-Powered Domain-Specific Course Recommendation System Using Knowledge Graphs and BERT-Based Semantic Analysis",
+      "type": "Indian Patent Publication",
+      "status": "Published",
+
+      "inventors": [
+        "Kunal S. Kavathekar",
+        "Tanvi R. Mane",
+        "Prof. Waman R. Parulekar"
+      ],
+
+      "description": "A novel AI-powered recommendation framework utilizing Knowledge Graphs and BERT-based semantic analysis to provide intelligent domain-specific course recommendations and personalized learning pathways.",
+
+      "organization": "Indian Patent Office"
+    },
+
+    "copyright": {
+      "title": "Path Reco: AI Powered Domain Specific Course Recommendation for Online Learning Platforms",
+      "registrationNumber": "LD-20260182714",
+      "registrationDate": "27 February 2026",
+      "status": "Registered",
+
+      "description": "Copyright registration protecting the software design, recommendation methodology, implementation, and associated intellectual property of the PathReco AI platform."
+    },
+
+    "achievements": [
+      "Published International Research Paper",
+      "Published Indian Patent",
+      "Registered Copyright",
+      "Developed Working AI Recommendation System",
+      "Integrated Sentence-BERT with Knowledge Graph-based Recommendations"
+    ],
+
+    "institution": {
+      "college": "Finolex Academy of Management and Technology",
+      "program": "Master of Computer Applications (MCA)",
+      "guide": "Prof. Waman R. Parulekar"
+    }
+  }
+}

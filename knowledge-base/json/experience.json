@@ -1,0 +1,69 @@
+{
+  "experience": [
+    {
+      "company": "Momento (Humora Technologies Pvt. Ltd.)",
+      "role": "Software Development Intern",
+      "duration": "January 2026 - May 2026",
+      "months": 5,
+      "technologies": [
+        "Next.js",
+        "JavaScript",
+        "Node.js",
+        "MySQL",
+        "Tailwind CSS",
+        "CSS",
+        "AWS EC2",
+        "Amazon S3",
+        "Vercel",
+        "Gemini API"
+      ],
+      "projects": [
+        "LearnBetter",
+        "ArthShastra",
+        "Tech4Bharat",
+        "Sahyadri Rural Connect",
+        "Humora Technologies Website",
+        "Photography Website Templates"
+      ],
+      "responsibilities": [
+        "Developed and maintained web applications using Next.js, JavaScript, Tailwind CSS, Node.js, and MySQL across multiple live projects.",
+        "Built full-stack features for LearnBetter using Next.js, Node.js, MySQL, AWS EC2, and Amazon S3.",
+        "Participated in testing, debugging, authentication validation, and issue resolution to improve application reliability and security.",
+        "Developed frontend modules for the ArthShastra platform, including book navigation, chapter browsing, and detailed shloka viewing interfaces.",
+        "Built a Gemini API-powered data processing tool that converted structured textual content into standardized JSON datasets for the ArthShastra platform.",
+        "Designed and managed structured JSON-based content architecture for storing shlokas, translations, word meanings, and metadata.",
+        "Developed responsive user interfaces for Tech4Bharat and Sahyadri Rural Connect and supported deployment through Vercel.",
+        "Developed 70+ responsive pages for the Humora Technologies enterprise website, ensuring consistency, usability, and cross-device compatibility.",
+        "Created multiple responsive photography website templates for product, fashion, portrait, and business-focused photography use cases.",
+        "Collaborated with team members during development, testing, debugging, and deployment activities across multiple projects."
+      ]
+    },
+    {
+      "company": "Satchitanand Stencils Private Limited",
+      "role": "Robotic Process Automation (RPA) Intern",
+      "duration": "16 April 2024 - 16 June 2024",
+      "months": 2,
+      "technologies": [
+        "UiPath",
+        "Google Sheets",
+        "ERP Systems"
+      ],
+      "projects": [
+        "AnyTeller Automation Bot",
+        "Flipkart Shopping Automation Bot",
+        "Invoice Data Extraction Bot",
+        "Quotation Creation Bot"
+      ],
+      "responsibilities": [
+        "Developed and tested UiPath automation bots to automate repetitive business processes and strengthen RPA fundamentals.",
+        "Built automation workflows for AnyTeller application operations, Flipkart shopping automation, and invoice data extraction.",
+        "Gained hands-on experience in workflow design, process automation, exception handling, testing, and debugging.",
+        "Contributed to a live Quotation Creation Bot that automated data processing and business workflow operations.",
+        "Automated reading data from Google Sheets, validating and cleaning records, and feeding data into an ERP system.",
+        "Generated quotations automatically and streamlined email delivery to clients through workflow automation.",
+        "Worked closely with team members to analyze requirements, optimize workflows, and ensure reliable automation solutions."
+      ]
+    }
+  ],
+  "totalIndustryExperienceMonths": 7
+}

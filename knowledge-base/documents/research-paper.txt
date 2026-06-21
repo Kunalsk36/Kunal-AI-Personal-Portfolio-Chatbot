@@ -1,0 +1,377 @@
+PATHRECO RESEARCH PAPER
+
+Title:
+PathReco: AI-Powered Domain-Specific Course Recommendation System Using Sentence-BERT and Knowledge Graphs
+
+Publication:
+International Journal of Scientific Research in Science and Technology (IJSRST)
+
+DOI:
+https://doi.org/10.32628/IJSRST26133101
+
+Publication Date:
+20 April 2026
+
+Authors:
+
+* Kunal S. Kavathekar
+* Tanvi R. Mane
+* Prof. Waman R. Parulekar
+
+Affiliation:
+Department of MCA
+Finolex Academy of Management and Technology
+Ratnagiri, Maharashtra, India
+
+---
+
+RESEARCH OVERVIEW
+
+PathReco is an AI-powered domain-specific course recommendation system designed to provide personalized learning recommendations based on a user's existing skills and selected domain.
+
+The system was developed to solve a common problem faced by learners on online learning platforms such as Udemy, Coursera, and edX.
+
+Traditional recommendation systems often rely on:
+
+* Popularity
+* User ratings
+* Keyword matching
+
+These approaches frequently generate:
+
+* Irrelevant recommendations
+* Redundant suggestions
+* Courses beyond the learner's current skill level
+* Poor prerequisite awareness
+
+PathReco addresses these limitations using a hybrid recommendation approach.
+
+---
+
+PROBLEM STATEMENT
+
+Online learning platforms provide thousands of courses.
+
+Learners often struggle to:
+
+* Identify relevant courses
+* Understand learning sequences
+* Select courses matching their current knowledge
+* Follow structured learning paths
+
+Existing recommendation systems lack:
+
+* Semantic understanding of user skills
+* Prerequisite awareness
+* Personalized learning path generation
+* Explainable recommendations
+
+---
+
+OBJECTIVE
+
+The primary objective of PathReco is to:
+
+* Understand user skills using natural language processing
+* Analyze skill descriptions semantically
+* Recommend domain-specific courses
+* Consider prerequisite relationships between skills
+* Generate structured learning pathways
+
+---
+
+KEY CONTRIBUTIONS
+
+PathReco introduces:
+
+1. Semantic skill understanding using Sentence-BERT.
+2. Knowledge Graph-based prerequisite modeling.
+3. Hybrid recommendation architecture.
+4. Skill-gap-based course recommendation.
+5. Explainable learning pathways.
+
+---
+
+TECHNOLOGIES USED
+
+Programming Language:
+
+* Python
+
+Backend Framework:
+
+* Flask
+
+Machine Learning:
+
+* Sentence-BERT (SBERT)
+* Hugging Face Transformers
+* PyTorch
+
+Knowledge Representation:
+
+* Knowledge Graphs
+* NetworkX
+
+Data Processing:
+
+* Pandas
+* NumPy
+
+---
+
+DATASET
+
+Dataset Source:
+Udemy Courses Dataset (2023)
+
+Source Platform:
+Kaggle
+
+Dataset Preparation:
+
+The original dataset contained courses from:
+
+* Business
+* Design
+* Information Technology
+
+For PathReco:
+
+* Only IT-related courses were selected.
+* Course descriptions were cleaned and standardized.
+* Duplicate records were removed.
+* A new skills column was introduced.
+* Skill dependencies were modeled for prerequisite analysis.
+
+---
+
+SYSTEM ARCHITECTURE
+
+PathReco follows a hybrid recommendation architecture.
+
+Major Components:
+
+1. User Input Processing
+2. Text Preprocessing
+3. Semantic Embedding Generation
+4. Knowledge Graph Construction
+5. Hybrid Recommendation Engine
+
+---
+
+WORKFLOW
+
+Step 1:
+User selects a domain and enters existing skills.
+
+Example:
+
+Domain:
+Web Development
+
+Skills:
+HTML, CSS
+
+---
+
+Step 2:
+Input preprocessing is performed.
+
+Processes include:
+
+* Lowercasing
+* Tokenization
+* Stop-word removal
+* Lemmatization
+
+---
+
+Step 3:
+Sentence-BERT generates semantic embeddings.
+
+The model converts:
+
+* User skills
+* Course descriptions
+
+into dense vector representations.
+
+---
+
+Step 4:
+Cosine similarity is calculated between:
+
+* User skill embeddings
+* Course embeddings
+
+This identifies semantically relevant courses.
+
+---
+
+Step 5:
+Knowledge Graph filtering is applied.
+
+Example Skill Dependency:
+
+HTML
+↓
+CSS
+↓
+JavaScript
+↓
+React.js / Node.js
+↓
+Full Stack Development
+
+The knowledge graph ensures logical learning progression.
+
+---
+
+Step 6:
+Redundant courses are removed.
+
+Courses covering already-known skills are filtered out.
+
+---
+
+Step 7:
+Final hybrid ranking is generated.
+
+Final Score Formula:
+
+Score(c) = α × Similarity(c) + β × KnowledgeGraph(c)
+
+Where:
+
+* Similarity(c) = semantic similarity score
+* KnowledgeGraph(c) = prerequisite satisfaction score
+
+---
+
+RESEARCH GAPS IDENTIFIED
+
+Gap 1:
+Lack of semantic understanding of user skills.
+
+Solution:
+Sentence-BERT embeddings.
+
+---
+
+Gap 2:
+Absence of prerequisite awareness.
+
+Solution:
+Knowledge Graph filtering.
+
+---
+
+Gap 3:
+Redundant recommendations.
+
+Solution:
+Skill-gap-based recommendation.
+
+---
+
+Gap 4:
+Limited explainability.
+
+Solution:
+Graph-based explainable recommendations.
+
+---
+
+RESULTS
+
+The PathReco prototype successfully demonstrated:
+
+* Improved recommendation relevance.
+* Better understanding of user skills.
+* Reduced recommendation redundancy.
+* Prerequisite-aware course suggestions.
+* Structured learning path generation.
+
+Example:
+
+When a user entered:
+
+Skills:
+HTML and CSS
+
+Domain:
+Web Development
+
+The system recommended:
+
+* JavaScript
+* Frontend Frameworks
+* Advanced Web Development Courses
+
+instead of beginner HTML/CSS courses.
+
+---
+
+CONCLUSION
+
+PathReco combines:
+
+* Natural Language Processing
+* Sentence-BERT
+* Knowledge Graphs
+
+to generate personalized and structured course recommendations.
+
+The hybrid approach improves recommendation precision and helps learners follow logical learning paths aligned with their current knowledge and future goals.
+
+---
+
+FUTURE SCOPE
+
+Future improvements may include:
+
+* Support for multiple domains beyond IT
+* Automated knowledge graph generation
+* Collaborative filtering integration
+* User feedback-based personalization
+* Cloud deployment
+* Mobile application support
+
+---
+
+INTELLECTUAL PROPERTY RELATED TO PATHRECO
+
+Research Paper:
+PathReco: AI-Powered Domain-Specific Course Recommendation System Using Sentence-BERT and Knowledge Graphs
+
+Patent:
+INDIPATHRECO: AI-Powered Domain-Specific Course Recommendation System Using Knowledge Graphs and BERT-Based Semantic Analysis
+
+Copyright:
+Path Reco: AI Powered Domain Specific Course Recommendation for Online Learning Platforms
+
+---
+
+KEYWORDS
+
+PathReco
+Course Recommendation System
+Artificial Intelligence
+Machine Learning
+Natural Language Processing
+Sentence-BERT
+SBERT
+Knowledge Graph
+Semantic Search
+Personalized Learning
+Learning Path Recommendation
+Flask
+PyTorch
+Hugging Face
+NetworkX
+Python
+AI Research
+Research Paper
+Patent
+Copyright

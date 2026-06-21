@@ -1,0 +1,47 @@
+{
+  "education": [
+    {
+      "level": "Master's Degree",
+      "degree": "Master of Computer Applications",
+      "shortName": "MCA",
+      "institution": "Finolex Academy of Management and Technology",
+      "location": "Ratnagiri, Maharashtra, India",
+      "boardOrUniversity": "University of Mumbai",
+      "startYear": 2024,
+      "endYear": 2026,
+      "status": "Pursuing"
+    },
+    {
+      "level": "Bachelor's Degree",
+      "degree": "Bachelor of Science in Computer Science",
+      "shortName": "BSc CS",
+      "institution": "Gogate Jogalekar College (Autonomous)",
+      "location": "Ratnagiri, Maharashtra, India",
+      "boardOrUniversity": "University of Mumbai",
+      "startYear": 2021,
+      "endYear": 2024,
+      "cgpa": 9.5,
+      "cgpi": 9.85,
+      "rank": "1st Rank",
+      "award": "Gold Medalist"
+    },
+    {
+      "level": "Higher Secondary Education",
+      "degree": "HSC (Science)",
+      "institution": "Maharashtra State Board",
+      "year": 2021,
+      "percentage": 86.33,
+      "marksObtained": 518,
+      "totalMarks": 600
+    },
+    {
+      "level": "Secondary Education",
+      "degree": "SSC",
+      "institution": "Maharashtra State Board",
+      "year": 2019,
+      "percentage": 83.00,
+      "marksObtained": 415,
+      "totalMarks": 500
+    }
+  ]
+}

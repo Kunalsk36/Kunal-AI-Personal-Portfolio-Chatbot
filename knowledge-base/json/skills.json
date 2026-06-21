@@ -1,0 +1,60 @@
+{
+  "programmingLanguages": [
+    "Java",
+    "JavaScript",
+    "Python",
+    "Kotlin"
+  ],
+
+  "frontend": [
+    "HTML5",
+    "CSS3",
+    "React.js",
+    "Next.js",
+    "Tailwind CSS"
+  ],
+
+  "backend": [
+    "Node.js",
+    "Express.js"
+  ],
+
+  "databases": [
+    "MySQL",
+    "MongoDB",
+    "Firebase"
+  ],
+
+  "cloudAndDeployment": [
+    "AWS EC2",
+    "Amazon S3",
+    "Vercel"
+  ],
+
+  "aiAndResearch": [
+    "Sentence-BERT",
+    "HuggingFace",
+    "Knowledge Graphs",
+    "NetworkX"
+  ],
+
+  "automation": [
+    "UiPath"
+  ],
+
+  "tools": [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Figma",
+    "Antigravity"
+  ],
+
+  "softSkills": [
+    "Leadership",
+    "Communication",
+    "Problem Solving",
+    "Presentation Skills",
+    "Team Collaboration"
+  ]
+}
