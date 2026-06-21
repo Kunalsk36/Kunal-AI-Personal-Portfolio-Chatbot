@@ -12,13 +12,18 @@ export default function Header() {
   return (
     <header className="fixed left-0 right-0 top-0 z-20 h-16 border-b border-[var(--color-border)] bg-[var(--color-surface)]/95 backdrop-blur">
       <div className="mx-auto flex h-full w-full max-w-[1200px] items-center justify-between gap-4 px-4 sm:px-6">
-        <div className="min-w-0">
-          <h1 className="truncate text-base font-semibold leading-6 text-[var(--color-text)] sm:text-lg">
-            Kunal AI
-          </h1>
-          <p className="truncate text-xs leading-5 text-[var(--color-muted)] sm:text-sm">
-            Ask me about my projects, skills and experience
-          </p>
+        <div className="flex items-center gap-4 min-w-0">
+          <div className="min-w-0 flex flex-col">
+            <h1 className="truncate text-base font-bold tracking-tight text-[var(--color-text)] sm:text-xl">
+              Kunal Kavathekar
+            </h1>
+            <p className="truncate text-xs font-medium text-[var(--color-muted)] sm:text-sm">
+              Software Developer • MCA Student
+            </p>
+          </div>
+          <div className="hidden md:flex items-center rounded-full border border-[var(--color-accent)]/30 bg-[var(--color-accent)]/10 px-2.5 py-0.5 text-xs font-medium text-[var(--color-accent)]">
+            AI-Powered Interactive Portfolio
+          </div>
         </div>
 
         <button

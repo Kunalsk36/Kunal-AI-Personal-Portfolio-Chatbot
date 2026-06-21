@@ -5,6 +5,7 @@ import ChatInput from "@/components/ChatInput";
 import EmptyState from "@/components/EmptyState";
 import Header from "@/components/Header";
 import MessageBubble from "@/components/MessageBubble";
+import TypingIndicator from "@/components/TypingIndicator";
 import { getBackendHealth, chatWithAI } from "@/services/api";
 
 export default function ChatContainer() {
@@ -104,24 +105,17 @@ export default function ChatContainer() {
         {messages.length === 0 ? (
           <EmptyState onSuggestionClick={sendMessage} />
         ) : (
-          <section
+            <section
             aria-label="Chat messages"
-            className="mx-auto flex w-full max-w-3xl flex-col gap-4 py-6"
+            className="mx-auto flex w-full max-w-3xl flex-col gap-6 py-6"
           >
             {messages.map((message) => (
               <MessageBubble key={message.id} message={message} />
             ))}
             
-            {isLoading && (
-              <div className="flex w-full justify-start">
-                <article className="max-w-[90%] rounded-2xl px-4 py-3 text-sm leading-6 shadow-sm sm:max-w-[800px] sm:text-base border border-[var(--color-border)] bg-[var(--color-message)] text-[var(--color-text)] flex items-center gap-2">
-                  <div className="animate-spin rounded-full h-4 w-4 border-2 border-[var(--color-accent)] border-t-transparent"></div>
-                  <span>Kunal AI is typing...</span>
-                </article>
-              </div>
-            )}
+            {isLoading && <TypingIndicator />}
             
-            <div ref={messagesEndRef} className="h-1" />
+            <div ref={messagesEndRef} className="h-4" />
           </section>
         )}
       </main>
