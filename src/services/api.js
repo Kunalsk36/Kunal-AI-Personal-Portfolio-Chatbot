@@ -10,18 +10,18 @@ export async function getBackendHealth() {
   return response.json();
 }
 
-export async function chatWithAI(message) {
+export async function chatWithAI(message, history = []) {
   const response = await fetch(`${API_BASE_URL}/chat`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ message }),
+    body: JSON.stringify({ message, history }),
   });
 
   if (!response.ok) {
     throw new Error(`Chat API failed with status ${response.status}`);
   }
 
-  return response.json();
+  return response;
 }

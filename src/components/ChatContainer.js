@@ -5,7 +5,6 @@ import ChatInput from "@/components/ChatInput";
 import EmptyState from "@/components/EmptyState";
 import Header from "@/components/Header";
 import MessageBubble from "@/components/MessageBubble";
-import TypingIndicator from "@/components/TypingIndicator";
 import { getBackendHealth, chatWithAI } from "@/services/api";
 
 export default function ChatContainer() {
@@ -57,39 +56,76 @@ export default function ChatContainer() {
     setInput("");
     setIsLoading(true);
 
+    const assistantMessageId = `${new Date().toISOString()}-assistant`;
+
+    // Add empty message placeholder
+    setMessages((currentMessages) => [
+      ...currentMessages,
+      {
+        id: assistantMessageId,
+        role: "assistant",
+        content: "",
+      },
+    ]);
+
     try {
-      const response = await chatWithAI(content);
-      const resTimestamp = new Date().toISOString();
+      // Build conversation history from existing messages (last 10, excluding the empty placeholder)
+      const historyForBackend = messages
+        .filter((msg) => msg.content && msg.content.trim().length > 0)
+        .slice(-10)
+        .map(({ role, content }) => ({ role, content }));
+
+      const response = await chatWithAI(content, historyForBackend);
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let accumulatedText = "";
       
-      if (response.success) {
-        setMessages((currentMessages) => [
-          ...currentMessages,
-          {
-            id: `${resTimestamp}-assistant`,
-            role: "assistant",
-            content: response.answer,
-          },
-        ]);
-      } else {
-        setMessages((currentMessages) => [
-          ...currentMessages,
-          {
-            id: `${resTimestamp}-error`,
-            role: "assistant",
-            content: response.error || "An error occurred.",
-          },
-        ]);
+      // Stop loading once we start receiving chunks
+      setIsLoading(false);
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) {
+          break;
+        }
+
+        const chunk = decoder.decode(value);
+        const lines = chunk.split("\n");
+        for (const line of lines) {
+          if (line.startsWith("data: ")) {
+            const dataStr = line.slice(6).trim();
+            if (dataStr === "[DONE]") {
+              break;
+            }
+            try {
+              const data = JSON.parse(dataStr);
+              if (data.error) {
+                throw new Error(data.error);
+              }
+              if (data.text) {
+                accumulatedText += data.text;
+                setMessages((currentMessages) =>
+                  currentMessages.map((msg) =>
+                    msg.id === assistantMessageId
+                      ? { ...msg, content: accumulatedText }
+                      : msg
+                  )
+                );
+              }
+            } catch (e) {
+              // Ignore parse errors from incomplete chunks
+            }
+          }
+        }
       }
     } catch (error) {
-      const errTimestamp = new Date().toISOString();
-      setMessages((currentMessages) => [
-        ...currentMessages,
-        {
-          id: `${errTimestamp}-error`,
-          role: "assistant",
-          content: "Unable to connect to Kunal AI. Please try again.",
-        },
-      ]);
+      setMessages((currentMessages) =>
+        currentMessages.map((msg) =>
+          msg.id === assistantMessageId
+            ? { ...msg, content: error.message || "Unable to connect to Kunal AI. Please try again." }
+            : msg
+        )
+      );
     } finally {
       setIsLoading(false);
     }
@@ -101,21 +137,21 @@ export default function ChatContainer() {
     >
       <Header />
 
-      <main className="mx-auto min-h-dvh w-full max-w-[1200px] px-4 pb-32 pt-20 sm:px-6">
+      <main className={`mx-auto min-h-dvh w-full max-w-[1200px] px-4 pt-20 sm:px-6 ${
+        messages.length === 0 ? "pb-22" : "pb-16"
+      }`}>
         {messages.length === 0 ? (
           <EmptyState onSuggestionClick={sendMessage} />
         ) : (
             <section
             aria-label="Chat messages"
-            className="mx-auto flex w-full max-w-3xl flex-col gap-6 py-6"
+            className="mx-auto flex w-full max-w-4xl flex-col gap-4 py-2"
           >
             {messages.map((message) => (
               <MessageBubble key={message.id} message={message} />
             ))}
             
-            {isLoading && <TypingIndicator />}
-            
-            <div ref={messagesEndRef} className="h-4" />
+            <div ref={messagesEndRef} className="h-0" />
           </section>
         )}
       </main>

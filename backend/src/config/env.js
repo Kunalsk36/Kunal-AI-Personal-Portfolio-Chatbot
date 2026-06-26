@@ -12,5 +12,5 @@ export const env = {
     .filter(Boolean),
   ollamaBaseUrl: process.env.OLLAMA_BASE_URL || "http://localhost:11434",
   ollamaModel: process.env.OLLAMA_MODEL || "qwen2.5:1.5b",
-  ollamaTimeoutMs: Number(process.env.OLLAMA_TIMEOUT_MS || 30000),
+  ollamaTimeoutMs: Number(process.env.OLLAMA_TIMEOUT_MS || 60000),
 };

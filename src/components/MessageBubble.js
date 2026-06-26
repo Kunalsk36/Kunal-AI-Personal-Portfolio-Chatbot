@@ -3,6 +3,7 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { Copy, Check } from "lucide-react";
 
 export default function MessageBubble({ message }) {
   const isUser = message.role === "user";
@@ -20,9 +21,9 @@ export default function MessageBubble({ message }) {
   };
 
   return (
-    <div className={`flex w-full ${isUser ? "justify-end" : "justify-start"} animate-fade-in`}>
+    <div className={`group flex w-full ${isUser ? "justify-end" : "justify-start"} animate-fade-in`}>
       <article
-        className={`relative max-w-[90%] sm:max-w-[800px] shadow-sm ${
+        className={`relative max-w-[90%] sm:max-w-4xl shadow-sm ${
           isUser
             ? "rounded-2xl rounded-br-sm px-5 py-3 bg-[var(--color-accent)] text-white text-base leading-6"
             : "rounded-2xl rounded-bl-sm px-5 py-4 border border-[var(--color-border)] bg-[var(--color-surface)] text-[var(--color-text)]"
@@ -30,32 +31,36 @@ export default function MessageBubble({ message }) {
       >
         {isUser ? (
           <div className="whitespace-pre-wrap break-words">{message.content}</div>
-        ) : (
-          <div className="markdown-body">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>
-              {message.content}
-            </ReactMarkdown>
-            
-            <div className="flex justify-end mt-2 -mb-2">
-              <button
-                onClick={handleCopy}
-                className="flex items-center gap-1 text-xs font-medium text-[var(--color-muted)] hover:text-[var(--color-text)] transition-colors"
-                aria-label="Copy response"
-              >
-                {copied ? (
-                  <>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    Copied
-                  </>
-                ) : (
-                  <>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-                    Copy
-                  </>
-                )}
-              </button>
+        ) : message.content === "" ? (
+          <div className="flex items-center gap-2.5 h-5 select-none animate-fade-in">
+            <div className="flex items-center space-x-1.5">
+              <div className="w-1.5 h-1.5 rounded-full bg-[var(--color-muted)] animate-[bounce_1s_infinite_0ms]"></div>
+              <div className="w-1.5 h-1.5 rounded-full bg-[var(--color-muted)] animate-[bounce_1s_infinite_200ms]"></div>
+              <div className="w-1.5 h-1.5 rounded-full bg-[var(--color-muted)] animate-[bounce_1s_infinite_400ms]"></div>
             </div>
+            <span className="text-xs sm:text-sm font-medium text-[var(--color-muted)]">Generating response</span>
           </div>
+        ) : (
+          <>
+            <div className="markdown-body">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                {message.content}
+              </ReactMarkdown>
+            </div>
+            
+            <button
+              onClick={handleCopy}
+              className="absolute bottom-2.5 right-2.5 p-1.5 rounded-lg border border-[var(--color-border)] bg-[var(--color-message)] text-[var(--color-muted)] hover:text-[var(--color-text)] transition-all duration-[250ms] hover:shadow-sm opacity-0 pointer-events-none translate-y-1 group-hover:opacity-100 group-hover:pointer-events-auto group-hover:translate-y-0"
+              aria-label="Copy response"
+              title={copied ? "Copied" : "Copy response"}
+            >
+              {copied ? (
+                <Check className="h-3.5 w-3.5 text-green-500" />
+              ) : (
+                <Copy className="h-3.5 w-3.5" />
+              )}
+            </button>
+          </>
         )}
       </article>
     </div>
